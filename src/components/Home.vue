@@ -1,0 +1,19 @@
+<template>
+  <v-container>
+    <v-card></v-card>
+  </v-container>
+</template>
+
+<script>
+export default {
+  name: "HelloWorld",
+
+  data: () => ({}),
+};
+</script>
+
+<style scoped>
+.v-card {
+  min-height: 860px;
+}
+</style>
