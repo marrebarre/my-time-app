@@ -1,7 +1,7 @@
 <template>
   <v-app>
+      <Menu />
     <v-main>
-      <Top />
       <Home />
     </v-main>
   </v-app>
@@ -9,14 +9,14 @@
 
 <script>
 import Home from "./components/Home.vue";
-import Top from "./components/Top.vue";
+import Menu from "./components/Menu.vue";
 
 export default {
   name: "App",
 
   components: {
     Home,
-    Top,
+    Menu,
   },
 
   data: () => ({
@@ -25,8 +25,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.v-application {
-  background-color: rgb(112, 112, 112);
-}
+<style >
 </style>
