@@ -1,6 +1,6 @@
 <template>
   <v-app>
-      <Menu />
+    <Menu />
     <v-main>
       <Home />
     </v-main>
@@ -26,4 +26,8 @@ export default {
 </script>
 
 <style >
+.v-main,
+body {
+  background-color: rgb(54, 50, 50);
+}
 </style>
